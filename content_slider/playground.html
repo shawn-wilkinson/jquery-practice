@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+  <title>Learn jQuery</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <style>
+  .red{color:red;}
+  .green{color:green;}
+
+  </style>
+  <script>
+    $(document).ready(function(){
+
+      // $('.myLink').on('mouseenter',function(event){
+      //   $('h1').addClass('red');
+      // })
+
+      // $('.myLink').on('mouseleave',function(event){
+      //   $('h1').removeClass('red');
+      // })
+
+      $('.myLink').on('click',function(event){
+        $('h1').css('color','red')
+      })
+
+
+    });
+
+  </script>
+</head>
+<body>
+  <h1>Welcome Everyone</h1>
+  <a href="#" class="myLink">Click Me</a>
+>
+</body>
